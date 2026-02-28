@@ -81,8 +81,8 @@ const HeroSection = () => {
                     </button>
                 </div>
             </div>
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-white/70">
-                <span className="material-icons text-3xl">keyboard_arrow_down</span>
+            <div className="absolute inset-x-0 bottom-8 flex justify-center text-white/70">
+                <span className="material-icons text-3xl animate-bounce">keyboard_arrow_down</span>
             </div>
         </section>
     )
