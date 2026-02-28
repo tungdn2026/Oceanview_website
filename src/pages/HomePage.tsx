@@ -206,14 +206,14 @@ const FeaturedResidences = () => {
                     </a>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div className="group cursor-pointer">
+                    <Link to="/details" className="group cursor-pointer block">
                         <div className="relative overflow-hidden rounded-lg aspect-[4/5] mb-4">
                             <img alt="Modern villa interior living room with ocean view" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5QButgNAN4wxJSSH6Q97HiwWdeGC7RhIddIJ68D2XQR3uw9moLcqOmBL8djRJW4SPQDgPHWlHTtmsylGPCO9p57DCQh6E1Dw20fJbnxwwYiaZzK36QZuKLXQSv-9UnjBVIWznBrUap2C2IxrScpbUffgVXsEFZRzjcV8Sgsj38ARUoO28PnmzjAvmkzduuYy3kBvewaHPGysesxEqShXr1yrYJlM8QZ-jTPT5GqENLIFn-6rbER6UBxlX5QieSMkdC2MsdQ8oLgOQ" />
                             <div className="absolute top-4 left-4 bg-white/90 backdrop-blur text-primary px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-sm">
                                 Exclusive
                             </div>
                             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                                <Link to="/details" className="bg-white/20 hover:bg-white/40 text-center backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</Link>
+                                <div className="bg-white/20 hover:bg-white/40 text-center backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</div>
                             </div>
                         </div>
                         <div className="flex justify-between items-start">
@@ -228,12 +228,12 @@ const FeaturedResidences = () => {
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">shower</i> 5.5 Baths</span>
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">square_foot</i> 4,500 sqft</span>
                         </div>
-                    </div>
-                    <div className="group cursor-pointer">
+                    </Link>
+                    <a href="#" onClick={(e) => { e.preventDefault(); showToast("Property details coming soon", "info"); }} className="group cursor-pointer block">
                         <div className="relative overflow-hidden rounded-lg aspect-[4/5] mb-4">
                             <img alt="Exterior of modern tropical mansion with pool at dusk" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVhDMTIRDTUzeztcx6LIEhIfducEHMG4KAS9Af4f8OGwzCuxLjgZsXoDexvp89MUmnMfs_go8H3PR-NtMiCodUuEbh4_I1ul2gspNmL4XFU2m_NNJfyjzVn7ll8Uefpf7RZ8XMJIbE4Kr5g0rtig_hPGWsG92WmEi1BZRwWvNtgWIwxTpp5Yp1fPyo9ek-6DmfhPpcike3KJ98neW45R5SfjJDJUhg4_W1nUMd2Ig4leyOqR4s8gztMWgoppH6W0wLLF7zlOm1zwCI" />
                             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                                <button className="bg-white/20 hover:bg-white/40 backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</button>
+                                <div className="bg-white/20 hover:bg-white/40 text-center backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</div>
                             </div>
                         </div>
                         <div className="flex justify-between items-start">
@@ -248,15 +248,15 @@ const FeaturedResidences = () => {
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">shower</i> 6 Baths</span>
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">square_foot</i> 7,500 sqft</span>
                         </div>
-                    </div>
-                    <div className="group cursor-pointer">
+                    </a>
+                    <a href="#" onClick={(e) => { e.preventDefault(); showToast("Property details coming soon", "info"); }} className="group cursor-pointer block">
                         <div className="relative overflow-hidden rounded-lg aspect-[4/5] mb-4">
                             <img alt="Penthouse view through large windows overlooking city skyline" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB91RdN0kICL0R9B1NLFec0-yfMa7oBmwkbEChO4KPDiY7ErZsjqx_NVVPzCvAmebXdNXmaS_Yz54tBT-5TvRzuCp9Ibmi4oa22CTzxzJe3MqU7X9R6TtEDTpw8y3rJtQHNVxaPR3YT_LCQX9rXn_SxgHQwuFBRmMGkFdVrVEQXNFHs9NuL3eckOSAmzcGNoPRYLd8XC6Du76HWgAlrq4mmg6SkM-wAUFjHY4SDcpmrmvMAxl9-7caGrhtdH-JrefBO8oUvAli-3R0a" />
                             <div className="absolute top-4 left-4 bg-primary/90 backdrop-blur text-white px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-sm">
                                 New Listing
                             </div>
                             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                                <button className="bg-white/20 hover:bg-white/40 backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</button>
+                                <div className="bg-white/20 hover:bg-white/40 text-center backdrop-blur-md text-white border border-white/50 px-4 py-2 rounded text-xs uppercase tracking-wider w-full transition-colors">View Details</div>
                             </div>
                         </div>
                         <div className="flex justify-between items-start">
@@ -271,7 +271,7 @@ const FeaturedResidences = () => {
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">shower</i> 3.5 Baths</span>
                             <span className="flex items-center gap-1"><i className="material-icons text-sm">square_foot</i> 3,100 sqft</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
